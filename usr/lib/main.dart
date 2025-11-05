@@ -244,7 +244,8 @@ class _PostWidgetState extends State<PostWidget> {
                 ),
               ],
             ),
-          ),n        ),
+          ),
+        ),
         if (widget.post.comments.isNotEmpty)
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
